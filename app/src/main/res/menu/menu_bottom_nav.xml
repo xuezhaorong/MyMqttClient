@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@id/connect_Fragment"
+            android:icon="@drawable/connect"
+            android:title="连接" />
+
+        <item
+            android:id="@id/subscribe_Fragment"
+            android:icon="@drawable/subscribe"
+            android:title="订阅" />
+
+</menu>

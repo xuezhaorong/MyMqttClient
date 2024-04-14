@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ConnectFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Server URI"
+            android:textSize="20sp"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/EditText_serverID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="30dp"
+            android:textColor="@color/text_color"
+            android:hint="Server URI" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Client URI"
+            android:textSize="20sp"
+            android:textColor="@color/text_color"
+            />
+
+        <EditText
+            android:id="@+id/EditText_clientID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="30dp"
+            android:textColor="@color/text_color"
+            android:hint="Client URI" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Username"
+            android:textSize="20sp"
+            android:textColor="@color/text_color"
+            />
+
+        <EditText
+            android:id="@+id/EditText_Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="30dp"
+            android:textColor="@color/text_color"
+            android:hint="Username" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Password"
+            android:textSize="20sp"
+            android:textColor="@color/text_color"
+            />
+
+        <EditText
+            android:id="@+id/EditText_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="30dp"
+            android:textColor="@color/text_color"
+            android:hint="Password" />
+
+
+        <Button
+            android:id="@+id/Button_clean"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_corner"
+            android:layout_margin="20dp"
+            android:text="CLEAN"
+            />
+
+        <Button
+            android:id="@+id/Button_prefill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_corner"
+            android:layout_margin="20dp"
+            android:text="PREFILL"
+            />
+
+        <Button
+            android:id="@+id/Button_connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_corner"
+            android:layout_margin="20dp"
+            android:text="CONNECT"
+            />
+
+        <Button
+            android:id="@+id/Button_disconnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_corner"
+            android:layout_margin="20dp"
+            android:text="DISCONNECT"
+            />
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
